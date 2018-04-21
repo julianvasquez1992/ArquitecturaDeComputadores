@@ -22,3 +22,31 @@ int main()
     return 0;
 }
 
+// ConsoleApplication1.cpp: define el punto de entrada de la aplicación de consola.
+//Depurar=>Ventanas=>Registros
+#include "stdafx.h"
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+int main()
+{
+	short valor;
+	_asm
+	{
+		//MOV AL, 2
+		//MOV BL, 3
+		//MUL BL
+
+		MOV EAX, 7000
+		MOV BL, 100
+		div BL
+
+		MOV [valor], AX
+	}
+
+	cout << "El valor es: " << valor;
+	_getch();
+    return 0;
+}
+
