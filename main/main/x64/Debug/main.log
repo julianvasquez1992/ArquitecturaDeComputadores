@@ -1,0 +1,4 @@
+﻿  Assembling pila.asm...
+  main.obj : /DEBUG:FASTLINK no se admite cuando hay presente código administrado; reiniciando vínculo con /DEBUG:FULL
+  main.vcxproj -> c:\users\salak405\documents\visual studio 2015\Projects\main\x64\Debug\main.exe
+  main.vcxproj -> c:\users\salak405\documents\visual studio 2015\Projects\main\x64\Debug\main.pdb (Partial PDB)

@@ -1,0 +1,7 @@
+﻿  Assembling pila.asm...
+pila.asm(1): error A2013: .MODEL must precede this directive
+pila.asm(3): error A2034: must be in segment block : ObtenerValorAsm
+pila.asm(4): error A2034: must be in segment block
+pila.asm(6): error A2034: must be in segment block
+pila.asm(7): fatal error A1010: unmatched block nesting : ObtenerValorAsm
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\BuildCustomizations\masm.targets(50,5): error MSB3721: El comando "ml.exe /c /nologo /Zi /Fo"Debug\pila.obj" /W3 /errorReport:prompt  /Tapila.asm" salió con el código 1.
